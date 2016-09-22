@@ -13,10 +13,10 @@ app.get('Article-one', function (req,res){
    res.sendFile(path.join(__dirname, 'ui', 'Article-one.htmll'));
 });
 app.get('Article-two', function (req,res){
-    res.send('article two will be server');
+     res.sendFile(path.join(__dirname, 'ui', 'Article-two.htmll'));
 });
 app.get('Article-three', function (req,res){
-    res.send('article three will be server');
+    res.sendFile(path.join(__dirname, 'ui', 'Article-three.htmll'));
 });
 
 app.get('/ui/style.css', function (req, res) {

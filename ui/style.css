@@ -6,10 +6,12 @@ body {
 
 .center {
     text-align: center;
+    text-shadow:2px 2px;
 }
 
 .text-big {
     font-size: 300%;
+    text-shadow:2px 2px 2px;
 }
 
 .bold {
